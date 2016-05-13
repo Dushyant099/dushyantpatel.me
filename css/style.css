@@ -2667,7 +2667,7 @@ Header Alignment
 	background-size: cover;
 	background-position: top left;
 	position:relative;
-    background-repeat; no-repeat;
+    background-repeat: no-repeat;
 }
 .theme-background-section .video-bg-div {
 	display:table-row-group;
