@@ -1193,12 +1193,11 @@ function defaultMap() {
     /*---- Map with Pin Offset ----*/
 
     else if(document.getElementById('location-map-2')) {
-        var image = 'images/map-pin.png';
         var mapOptions = {
 
             /*---- Map Location (Latitude,Longitude) ----*/
 
-            center: new google.maps.LatLng(40.7903, -73.9597),
+            center: new google.maps.LatLng(45.3495127, -75.7304269),
             zoom: 15,
             zoomControl:false,
             zoomControlOptions: {
@@ -1239,7 +1238,7 @@ function defaultMap() {
 
             /*---- Map Location (Latitude,Longitude) ----*/
 
-            center: new google.maps.LatLng(40.7903, -73.9597),
+            center: new google.maps.LatLng(45.3495127, -75.7304269),
             zoom: 15,
             zoomControl:false,
             zoomControlOptions: {
@@ -1269,6 +1268,7 @@ function defaultMap() {
             position: map.getCenter(),
             map: map
         });
+
     }
 
     /*---- Map without Pin ----*/
@@ -1278,7 +1278,7 @@ function defaultMap() {
 
             /*---- Map Location (Latitude,Longitude) ----*/
 
-            center: new google.maps.LatLng(40.7903, -73.9597),
+            center: new google.maps.LatLng(45.3495127, -75.7304269),
             zoom: 15,
             zoomControl:false,
             zoomControlOptions: {
@@ -1301,6 +1301,7 @@ function defaultMap() {
         /*---- Plotting Map ----*/
 
         var map = new google.maps.Map(document.getElementById('location-map-4'), mapOptions);
+
 
     }
 
